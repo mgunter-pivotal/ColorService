@@ -13,7 +13,7 @@ namespace ColorService.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "blue" };
+            return new string[] { "green" };
         }
     }
 }
